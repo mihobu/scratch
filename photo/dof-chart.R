@@ -179,6 +179,7 @@ ggplot(df.melt, aes(chart.x, value, color=variable)) +
   scale_fill_brewer(palette="Spectral") +
   ggtitle(paste(f, 'mm', sep=''))
 
+#####################################################################################
 
 # Get the hyperfocal distances at each of my preferred f-stops
 
